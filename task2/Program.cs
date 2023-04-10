@@ -33,7 +33,7 @@ for (int i = 0; i < array.GetLength(0); i++)
 {
   for (int j = 0; j < array.GetLength(1); j++) 
   {
-    int num = a + b;
+    int num = array[a,b];
     if(num == array[i,j])
     {
       Console.WriteLine($"{num} -> такое число присутствует в массиве");
